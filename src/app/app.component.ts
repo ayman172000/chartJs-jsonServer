@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {Chart,registerables} from 'node_modules/chart.js'
-import {HttpClient} from "@angular/common/http";
 Chart.register(...registerables)
+import {HttpClient} from "@angular/common/http";
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
