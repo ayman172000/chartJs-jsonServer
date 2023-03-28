@@ -1,3 +1,8 @@
+# json Server
+### npm install -g json-server 
+    installer json server global
+### json-server --watch db.json 
+    demarer le serveur et ecouter sur json.db
 # ChartProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.16.
