@@ -1,13 +1,15 @@
-# json Server
+# chart js
     npm install --save chart.js
     import {Chart,registerables} from 'node_modules/chart.js'
-Chart.register(...registerables)
-### npm install -g json-server 
-    installer json server global
-### json-server --watch db.json 
-    demarer le serveur et ecouter sur json.db
+    Chart.register(...registerables)
+# json Server
+## installer json server global
+    npm install -g json-server
+## demarer le serveur et ecouter sur json.db
+    json-server --watch db.json 
+    
 
-# chart js
+
 # ChartProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.16.
